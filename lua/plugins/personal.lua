@@ -40,4 +40,13 @@ return {
     -- vim be good games
     "ThePrimeagen/vim-be-good",
   },
+  {
+    "xiyaowong/transparent.nvim",
+  },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      inlay_hints = { enabled = false },
+    },
+  },
 }
