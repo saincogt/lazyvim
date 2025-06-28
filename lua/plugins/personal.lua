@@ -2,10 +2,10 @@ return {
   {
     "LazyVim/LazyVim",
     keys = {
-      { "∆", "<cmd>m +1<CR>", mode = "n", desc = "Move Down" },
-      { "˚", "<cmd>m -2<CR>", mode = "n", desc = "Move Up" },
-      { "˚", ":m '<-2<CR>gv=gv", mode = "v", desc = "Move Selection Up" },
-      { "∆", ":m '>+1<CR>gv=gv", mode = "v", desc = "Move Selection Down" },
+      { "<C-j>", "<cmd>m +1<CR>==", mode = "n", desc = "Move Down" },
+      { "<C-k>", "<cmd>m -2<CR>==", mode = "n", desc = "Move Up" },
+      { "<C-k>", ":m '<-2<CR>gv=gv", mode = "v", desc = "Move Selection Up" },
+      { "<C-j>", ":m '>+1<CR>gv=gv", mode = "v", desc = "Move Selection Down" },
     },
   },
   {
